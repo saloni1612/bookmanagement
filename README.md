@@ -1,54 +1,54 @@
+**Library Book Management System**
 
-Library Book Management System
 This project is a Library Book Management System implemented in C++. It allows users to manage a collection of books in a library, perform various operations like adding books, viewing details, searching by author or title, and more. The program uses object-oriented programming (OOP) concepts such as classes and encapsulation.
 
-Features
-Add Book Information
+_Features_
+1.Add Book Information
 Allows the user to add details about a new book, including:
-
 Book name
 Author name
 Book ID
 Price
 Issued status (yes/no)
-Display All Books
+
+2.Display All Books
 Lists all the books currently stored in the library with their details.
 
-Search Books by Author
+3.Search Books by Author
 Displays all books written by a specified author.
 
-Count of Books
+4.Count of Books
 Displays the total number of books available in the library.
 
-Search Book by Title
+5.Search Book by Title
 Finds and displays information about a book based on its title.
 
-Search Book by ID
+6.Search Book by ID
 Finds and displays information about a book based on its unique ID.
 
-Exit
+7.Exit
 Exits the program.
 
-Key Functions
-addbookinfo()
+_Key Functions_
+1.addbookinfo()
 Collects details about a book from the user.
 
-displaybookinfo()
+2.displaybookinfo()
 Prints details about a book.
 
-addbook()
+3.addbook()
 Adds a book to the library.
 
-displayallbooks()
+4.displayallbooks()
 Displays all books in the library.
 
-displaybooksbyauthor(char* author)
+5.displaybooksbyauthor(char* author)
 Finds and displays books by the specified author.
 
-displaybookbyname(char* bookname)
+6.displaybookbyname(char* bookname)
 Finds and displays a book by its title.
 
-displaybookbyid(int id)
+7.displaybookbyid(int id)
 Finds and displays a book by its unique ID.
 
 Notes
